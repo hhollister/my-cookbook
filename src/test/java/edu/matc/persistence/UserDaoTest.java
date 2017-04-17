@@ -12,7 +12,7 @@ import static org.junit.Assert.*;
 /**
  * Created on 9/13/16.
  *
- * @author pwaite
+ * @author hollister
  */
 public class UserDaoTest {
 
@@ -31,13 +31,19 @@ public class UserDaoTest {
 
     @Test
     public void getUser() throws Exception {
-        User user = dao.getUser(1);
-        assertEquals("getUser() is not working", "Heather", user.getFirstName());
+        User user = dao.getUser(17);
+        assertEquals("getUser() is not working", "admin", user.getFirstName());
     }
+/**
+    @Test
+    public void getUserByUsername() throws Exception {
+        User user = dao.getUserByUsername("test");
+        assertEquals("getUserByUsername() is not working", "test", user.getFirstName());
+    }*/
 
     @Test
     public void addUser() throws Exception {
-        User user = new User("first name", 2, "email");
+        User user = new User("test", "test@madisoncollege.edu", "test", "test");
         int id = dao.addUser(user);
         //assertEquals("addUser() is not working", user.getUserid(), dao.getUser(user.getUserid()));
 
@@ -50,16 +56,16 @@ public class UserDaoTest {
 
     @Test
     public void deleteUser() throws Exception {
-        dao.deleteUser(2);
-        assertNull("user did not get deleted", dao.getUser(2));
+        dao.deleteUser(18);
+        assertNull("user did not get deleted", dao.getUser(18));
     }
 
     @Test
     public void updateUser() throws Exception {
-        User user = dao.getUser(1);
+        User user = dao.getUser(18);
         dao.updateUser(user);
 
-        User insertedUser = dao.getUser(1);
+        User insertedUser = dao.getUser(18);
         assertEquals(user.getFirstName(), insertedUser.getFirstName());
         assertEquals(user.getEmail(), insertedUser.getEmail());
     }

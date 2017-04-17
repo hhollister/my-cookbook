@@ -21,31 +21,37 @@ public class User {
     @Id
     @GeneratedValue(generator = "increment")
     @GenericGenerator(name = "increment", strategy = "increment")
-    @Column(name = "user_id")
+    @Column(name = "id")
     private int userid;
 
     @Column(name = "email")
     private String email;
 
-    /**
-     * Instantiates a new User.
-     */
+    @Column(name = "user_name")
+    private String username;
+
+    @Column(name = "user_pass")
+    private String password;
+
+    //constructor
     public User() {
+
     }
 
     /**
      * Instantiates a new User.
      *
      * @param firstName the first name
-     * @param userid    the userid
      * @param email  the email
+     * @param username the user name
+     * @param password the users password
      */
-    public User(String firstName, int userid, String email) {
+    public User(String firstName, String email, String username, String password) {
         this.firstName = firstName;
-        this.userid = userid;
         this.email = email;
+        this.username = username;
+        this.password = password;
     }
-
 
     /**
      * Gets first name.
@@ -99,6 +105,23 @@ public class User {
      */
     public void setEmail(String email) {
         this.email = email;
+    }
+
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     @Override

@@ -16,7 +16,7 @@ import java.util.List;
 import static com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type.Int;
 
 /**
- * Created by paulawaite on 2/2/16.
+ * Created by hollister on 2/2/2017.
  */
 public class UserDao {
 
@@ -52,7 +52,7 @@ public class UserDao {
      */
     public User getUser(int id) {
         Session session = null;
-        User user;
+        User user = null;
 
         try {
             session = getSession();
@@ -69,6 +69,33 @@ public class UserDao {
 
         return user;
     }
+
+    /**
+     * retrieve a user given their id
+     *
+     * @param username the user's name
+     * @return user
+     */
+    public User getUserByUsername(String username) {
+        Session session = null;
+        User user = null;
+
+        try {
+            session = getSession();
+            user = (User) session.get(User.class, username);
+        } catch (HibernateException he) {
+            log.error("exception: " + he);
+        } catch (Exception e) {
+            log.error("Exception: " + e.getMessage());
+        } finally {
+            if (session != null) {
+                session.close();
+            }
+        }
+
+        return user;
+    }
+
 
     /**
      * add a user

@@ -1,4 +1,9 @@
 edu\matc\persistence\UserDao.class
+edu\matc\entity\UserRoles.class
 edu\matc\entity\User.class
+edu\matc\controller\CreateAccount.class
+edu\matc\persistence\UserRoleDao.class
+edu\matc\controller\RestApplication.class
 edu\matc\persistence\SessionFactoryProvider.class
 edu\matc\util\LocalDateAttributeConverter.class
+edu\matc\controller\AllUsers.class
