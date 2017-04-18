@@ -71,7 +71,7 @@ public class UserDao {
     }
 
     /**
-     * retrieve a user given their id
+     * retrieve a user given their username
      *
      * @param username the user's name
      * @return user
@@ -82,7 +82,9 @@ public class UserDao {
 
         try {
             session = getSession();
-            user = (User) session.get(User.class, username);
+            user = (User) session.createQuery("from edu.matc.entity.User u where u.username = :username")
+                    .setString("username", username)
+                    .uniqueResult();
         } catch (HibernateException he) {
             log.error("exception: " + he);
         } catch (Exception e) {

@@ -1,6 +1,7 @@
 package edu.matc.persistence;
 
 import edu.matc.entity.UserRole;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -17,6 +18,7 @@ import static org.junit.Assert.*;
 public class UserRoleDaoTest {
 
     UserRoleDao dao;
+    int newRole = 0;
 
     @Before
     public void setup() {
@@ -26,29 +28,44 @@ public class UserRoleDaoTest {
     @Test
     public void getAllUserRoles() throws Exception {
         List<UserRole> userrole = dao.getAllUserRoles();
-       // assertTrue(userrole.size() > 0);
-        assertEquals("error", 1, userrole.size());
-
+        assertTrue(userrole.size() > 0);
     }
 
-/**
     @Test
     public void getUserRole() throws Exception {
-        UserRoles userrole = dao.getUserRole("admin");
-        assertEquals("getUserRole() is not working", "administrator", userrole.getUserrole());
+        UserRole userrole = dao.getUserRole(1);
+        assertEquals("getUserRole() is not working", "administrator", userrole.getRole_name());
+    }
+
+    @Test
+    public void getUserRoleByUsername() throws Exception {
+        UserRole userrole = dao.getUserRoleByUsername("heather");
+        assertEquals("getUserRoleByUsername() is not working", "user", userrole.getRole_name());
     }
 
     @Test
     public void addUserRole() throws Exception {
-        UserRoles userrole = new UserRoles("test", "user");
-        int id = dao.addUserRole(userrole);
+        UserRole userrole = new UserRole("admin", "administrator");
+        int newRole = dao.addUserRole(userrole);
         //assertEquals("addUser() is not working", user.getUserid(), dao.getUser(user.getUserid()));
 
-        assertNotEquals(0, id);
+        assertNotEquals(0, newRole);
 
-        UserRoles insertedUserRole = dao.getUserRole("test");
-        assertEquals(userrole.getUsername(), insertedUserRole.getUsername());
-        assertEquals(userrole.getUserrole(), insertedUserRole.getUserrole());
-    }*/
+        UserRole insertedUserRole = dao.getUserRole(1);
+        assertEquals(userrole.getUser_name(), insertedUserRole.getUser_name());
+        assertEquals(userrole.getRole_name(), insertedUserRole.getRole_name());
+    }
 
+    @Test
+    public void deleteRole() throws Exception {
+        dao.deleteRole(3);
+        assertNull("user role did not get deleted", dao.getUserRole(3));
+    }
+
+    @After
+    public void tearDown() throws Exception {
+        if (newRole != 0) {
+            dao.deleteRole(newRole);
+        }
+    }
 }

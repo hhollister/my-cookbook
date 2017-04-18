@@ -13,6 +13,12 @@ import javax.persistence.*;
 @Table(name = "user_roles")
 public class UserRole {
 
+    @Id
+    @GeneratedValue(generator = "increment")
+    @GenericGenerator(name = "increment", strategy = "increment")
+    @Column(name = "id")
+    private int roleid;
+
     @Column(name = "user_name")
     private String user_name;
 
@@ -33,6 +39,14 @@ public class UserRole {
     public UserRole(String user_name, String role_name) {
         this.user_name = user_name;
         this.role_name = role_name;
+    }
+
+    public int getRoleid() {
+        return roleid;
+    }
+
+    public void setRoleid(int roleid) {
+        this.roleid = roleid;
     }
 
     public String getUser_name() {

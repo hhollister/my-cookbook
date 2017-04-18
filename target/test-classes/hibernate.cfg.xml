@@ -21,7 +21,6 @@
         <property name="show_sql">true</property>
 
         <!-- List the annotated entity class/es -->
-        <mapping package="edu.matc.entity"/>
         <mapping class="edu.matc.entity.User"/>
         <mapping class="edu.matc.entity.UserRole"/>
         <!--TODO add (any extra) entity class name-->

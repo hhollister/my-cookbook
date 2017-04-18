@@ -41,16 +41,45 @@ public class UserRoleDao {
     /**
      * retrieve a user given their id
      *
-     * @param username the username
-     * @return user
+     * @param id the id
+     * @return userrole
      */
-    public UserRole getUserRole(String username) {
+    public UserRole getUserRole(int id) {
         Session session = null;
         UserRole userrole = null;
 
         try {
             session = getSession();
-            userrole = (UserRole) session.get(UserRole.class, username);
+            userrole = (UserRole) session.get(UserRole.class, id);
+        } catch (HibernateException he) {
+            log.error("exception: " + he);
+        } catch (Exception e) {
+            log.error("Exception: " + e.getMessage());
+        } finally {
+            if (session != null) {
+                session.close();
+            }
+        }
+
+        return userrole;
+    }
+
+
+    /**
+     * retrieve a user given their username
+     *
+     * @param username the user's name
+     * @return user
+     */
+    public UserRole getUserRoleByUsername(String username) {
+        Session session = null;
+        UserRole userrole = null;
+
+        try {
+            session = getSession();
+            userrole = (UserRole) session.createQuery("from edu.matc.entity.UserRole u where u.user_name = :username")
+                    .setString("username", username)
+                    .uniqueResult();
         } catch (HibernateException he) {
             log.error("exception: " + he);
         } catch (Exception e) {
@@ -91,6 +120,31 @@ public class UserRoleDao {
         }
 
         return id;
+    }
+
+    /**
+     * delete a user by id
+     * @param id the user's id
+     */
+    public void deleteRole(int id) {
+        Session session = null;
+        UserRole userrole;
+
+        try {
+            session = getSession();
+            Transaction transaction = session.beginTransaction();
+            userrole = (UserRole) session.get(UserRole.class, id);
+            session.delete(userrole);
+            transaction.commit();
+        }catch (HibernateException he) {
+            log.error("exception: " + he);
+        } catch (Exception e) {
+            log.error("Exception: " + e.getMessage());
+        } finally {
+            if (session != null) {
+                session.close();
+            }
+        }
     }
 
     private Session getSession() {
