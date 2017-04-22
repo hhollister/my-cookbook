@@ -15,6 +15,8 @@ C:\Users\hornb\Documents\GitHub\mycookbook\src\main\java\edu\matc\entity\User.ja
 C:\Users\hornb\Documents\GitHub\mycookbook\src\main\java\edu\matc\controller\AddRecipeIngredients.java
 C:\Users\hornb\Documents\GitHub\mycookbook\src\main\java\edu\matc\controller\AllUsers.java
 C:\Users\hornb\Documents\GitHub\mycookbook\src\main\java\edu\matc\persistence\SessionFactoryProvider.java
+C:\Users\hornb\Documents\GitHub\mycookbook\src\main\java\edu\matc\controller\NextAddIngredients.java
+C:\Users\hornb\Documents\GitHub\mycookbook\src\main\java\edu\matc\controller\Recipes.java
 C:\Users\hornb\Documents\GitHub\mycookbook\src\main\java\edu\matc\entity\UserRole.java
 C:\Users\hornb\Documents\GitHub\mycookbook\src\main\java\edu\matc\controller\NextAddInstructions.java
 C:\Users\hornb\Documents\GitHub\mycookbook\src\main\java\edu\matc\entity\Recipe.java

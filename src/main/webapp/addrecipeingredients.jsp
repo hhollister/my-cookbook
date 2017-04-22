@@ -98,7 +98,7 @@
                 </div>
 
                     <form class="form-signin" action="/mycookbook/addrecipeingredients">
-                        <input type="hidden" id="recipeName" name="recipeName" class="form-control" value=${recipeName} readonly>
+                        <input type="hidden" id="recipeName" name="recipeName" class="form-control" value=${recipeName}>
                         <label for="recipeIngredient" class="sr-only">Ingredient</label>
                         <input type="text" id="recipeIngredient" name="recipeIngredient" class="form-control" placeholder="Ingredient" required autofocus>
                         <label for="ingredientAmount" class="sr-only">Amount</label>
@@ -114,10 +114,52 @@
 
                     <br />
 
-                <form class="form-signin" action="/mycookbook/nextaddinstructions">
-                    <button class="btn btn-lg btn-primary btn-block" type="submit">Next: Add Instructions</button>
+                <form class="form-signin" action="/mycookbook/addrecipeinstructions">
+                    <input type="hidden" id="recipeName" name="recipeName" class="form-control" value=${recipeName}>
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Next: Add Recipe Instructions</button>
                 </form>
 
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th>Step</th>
+                                <th>Instruction</th>
+                                <th>Move Down</th>
+                                <th>Move Up</th>
+                                <th>Delete</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <form class="form-signin" action="/mycookbook/addrecipeinstructions">
+                        <input type="hidden" id="recipeName" name="recipeName" class="form-control" value=${recipeName} readonly>
+                        <label for="recipeInstruction" class="sr-only">Instruction</label>
+                        <input type="recipeInstruction" id="recipeInstruction" name="recipeInstruction" class="form-control" placeholder="Instruction" required autofocus>
+
+                        <br />
+
+                        <button class="btn btn-lg btn-primary btn-block" type="submit">Add Instruction To Recipe</button>
+                    </form>
+
+                    <br />
+
+                    <form class="form-signin" action="/mycookbook/recipecomplete">
+                        <button class="btn btn-lg btn-primary btn-block" type="submit">Recipe Complete</button>
+                    </form>
+                </div>
             </div>
 
 

@@ -10,6 +10,7 @@ edu\matc\entity\Recipe.class
 edu\matc\persistence\UserDao.class
 edu\matc\controller\RecipeComplete.class
 edu\matc\entity\User.class
+edu\matc\controller\Recipes.class
 edu\matc\persistence\RecipeDao.class
 edu\matc\persistence\RecipeIngredientDao.class
 edu\matc\entity\RecipeInstruction.class
@@ -18,3 +19,4 @@ edu\matc\controller\AddRecipe.class
 edu\matc\controller\NextAddInstructions.class
 edu\matc\persistence\SessionFactoryProvider.class
 edu\matc\util\LocalDateAttributeConverter.class
+edu\matc\controller\NextAddIngredients.class

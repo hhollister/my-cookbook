@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@include file="taglib.jsp"%>
+<c:import url="/mycookbook/recipes"/>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <html lang="en">
 
@@ -25,6 +26,12 @@
     <link href="theme.css" rel="stylesheet">
 
 </head>
+
+<script type="text/javascript" class="init">
+    $(document).ready( function () {
+        $('#recipesTable').DataTable();
+    } );
+</script>
 
 <body>
 
@@ -115,6 +122,15 @@
                     <td>10 minutes</td>
                     <td></td>
                 </tr>
+                <c:forEach var="recipe" items="${recipes}">
+                    <tr>
+                        <td>${recipe.meal_category}</td>
+                        <td>${recipe.recipe_name}</td>
+                        <td>${recipe.preparation_time}</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </c:forEach>
                 </tbody>
             </table>
         </div>

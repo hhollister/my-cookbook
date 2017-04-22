@@ -29,5 +29,5 @@
 | LOST | Lost the time entered | ~45  |  Lost the time entered for Team Project(~30) and Individual Project(~15) |
 | 4/18/2017 | Individual Project | 3.5 |   |
 | 4/19/2017 | Individual Project | 4 |   |
-| 4/20/2017 | Individual Project | 4 |   |
-| 4/21/2017 | Individual Project | 4 |   |
+| 4/20/2017 | Individual Project | 3 |   |
+| 4/21/2017 | Individual Project | 3 |   |
