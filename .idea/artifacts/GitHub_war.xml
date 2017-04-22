@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="GitHub:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="my-cookbook.war">
-      <element id="artifact" artifact-name="GitHub:war exploded" />
-    </root>
-  </artifact>
-</component>

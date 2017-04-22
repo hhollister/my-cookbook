@@ -26,3 +26,8 @@
 | 2/19/2017 | Week 5 | 1 |   |  
 | 2/19/2017 | Week 6 |  |   |
 | 3/7/2017 | Presentation  | 1  |   |
+| LOST | Lost the time entered | ~45  |  Lost the time entered for Team Project(~30) and Individual Project(~15) |
+| 4/18/2017 | Individual Project | 3.5 |   |
+| 4/19/2017 | Individual Project | 4 |   |
+| 4/20/2017 | Individual Project | 4 |   |
+| 4/21/2017 | Individual Project | 4 |   |

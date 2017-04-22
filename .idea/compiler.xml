@@ -7,10 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="GitHub" />
+        <module name="my-cookbook" />
+        <module name="mycookbook" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="GitHub" target="1.8" />
+      <module name="my-cookbook" target="1.8" />
+      <module name="mycookbook" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

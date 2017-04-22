@@ -1,2 +1,5 @@
+edu\matc\persistence\RecipeIngredientDaoTest.class
+edu\matc\persistence\RecipeDaoTest.class
+edu\matc\persistence\RecipeInstructionDaoTest.class
 edu\matc\persistence\UserRoleDaoTest.class
 edu\matc\persistence\UserDaoTest.class

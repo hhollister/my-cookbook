@@ -23,6 +23,9 @@
         <!-- List the annotated entity class/es -->
         <mapping class="edu.matc.entity.User"/>
         <mapping class="edu.matc.entity.UserRole"/>
+        <mapping class="edu.matc.entity.Recipe"/>
+        <mapping class="edu.matc.entity.RecipeIngredient"/>
+        <mapping class="edu.matc.entity.RecipeInstruction"/>
         <!--TODO add (any extra) entity class name-->
 
     </session-factory>

@@ -2,10 +2,33 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="hibernate.cfg.xml/Hibernate" uuid="767b06cc-4f2f-4adb-bdf1-9f3e4ca83ef0">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
-      <first-sync>true</first-sync>
+      <database-info product="MySQL" version="5.7.17-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
-      <user-password>dfc0dfcedfc8dfc9df90dfc7dfd3dfd9dfdbdfc6df90df85df85dfc6dfc5dfc9dfcbdfc6dfc2dfc5dfd9dfdedf90df99df99df9adf9cdf85dfc9dfc5dfc5dfc1dfc8dfc5dfc5dfc1</user-password>
+      <resolve-scope>cookbook:</resolve-scope>
+    </data-source>
+    <data-source name="cookbook@AWS" uuid="781391ec-c4ed-4924-8325-5af6841cbcc6">
+      <database-info product="MySQL" version="5.7.17-0ubuntu0.16.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>tomcat</user-name>
+      <resolve-scope>sys:</resolve-scope>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <proxy-host>52.14.147.241</proxy-host>
+        <proxy-port>22</proxy-port>
+        <secret-storage>master_key</secret-storage>
+        <user>ubuntu</user>
+        <use-password>false</use-password>
+        <private-key-path>C:\Users\hornb\Documents\EnterpriseJava\EntJavaSpring2017CookBook.pem</private-key-path>
+      </ssh-properties>
     </data-source>
   </component>
 </project>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="edu.matc.persistence.UserDaoTest" time="1.254" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="edu.matc.persistence.UserDaoTest" time="0.053" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2016.3.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_112\jre\bin"/>
     <property name="java.vm.version" value="25.112-b15"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\hornb\Documents\GitHub\my-cookbook"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\hornb\Documents\GitHub\mycookbook"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\hornb\Documents\GitHub\my-cookbook"/>
+    <property name="user.dir" value="C:\Users\hornb\Documents\GitHub\mycookbook"/>
     <property name="java.runtime.version" value="1.8.0_112-b15"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_112\jre\lib\endorsed"/>
@@ -62,10 +62,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="edu.matc.persistence.UserDaoTest" name="getUserByUsername" time="1.185"/>
-  <testcase classname="edu.matc.persistence.UserDaoTest" name="addUser" time="0.053"/>
-  <testcase classname="edu.matc.persistence.UserDaoTest" name="getAllUsers" time="0.016"/>
-  <testcase classname="edu.matc.persistence.UserDaoTest" name="updateUser" time="0"/>
+  <testcase classname="edu.matc.persistence.UserDaoTest" name="getUserByUsername" time="0"/>
+  <testcase classname="edu.matc.persistence.UserDaoTest" name="addUser" time="0"/>
+  <testcase classname="edu.matc.persistence.UserDaoTest" name="getAllUsers" time="0"/>
+  <testcase classname="edu.matc.persistence.UserDaoTest" name="updateUser" time="0.053"/>
   <testcase classname="edu.matc.persistence.UserDaoTest" name="getUser" time="0"/>
   <testcase classname="edu.matc.persistence.UserDaoTest" name="deleteUser" time="0"/>
 </testsuite>
