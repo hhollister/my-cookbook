@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="edu.matc.persistence.UserDaoTest" time="0.136" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="edu.matc.persistence.UserDaoTest" time="0.052" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2016.3.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -62,10 +62,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="edu.matc.persistence.UserDaoTest" name="getUserByUsername" time="0.001"/>
-  <testcase classname="edu.matc.persistence.UserDaoTest" name="addUser" time="0.05"/>
+  <testcase classname="edu.matc.persistence.UserDaoTest" name="getUserByUsername" time="0"/>
+  <testcase classname="edu.matc.persistence.UserDaoTest" name="addUser" time="0.005"/>
   <testcase classname="edu.matc.persistence.UserDaoTest" name="getAllUsers" time="0"/>
-  <testcase classname="edu.matc.persistence.UserDaoTest" name="updateUser" time="0.069"/>
+  <testcase classname="edu.matc.persistence.UserDaoTest" name="updateUser" time="0.047"/>
   <testcase classname="edu.matc.persistence.UserDaoTest" name="getUser" time="0"/>
-  <testcase classname="edu.matc.persistence.UserDaoTest" name="deleteUser" time="0.016"/>
+  <testcase classname="edu.matc.persistence.UserDaoTest" name="deleteUser" time="0"/>
 </testsuite>

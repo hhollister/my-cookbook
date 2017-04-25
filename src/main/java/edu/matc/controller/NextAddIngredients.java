@@ -18,7 +18,7 @@ import java.io.IOException;
  */
 
 @WebServlet(
-        urlPatterns = {"/nextaddinstructions"}
+        urlPatterns = {"/nextaddingredients"}
 )
 
 public class NextAddIngredients extends HttpServlet {

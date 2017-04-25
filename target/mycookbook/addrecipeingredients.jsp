@@ -17,11 +17,6 @@
         <p>Please add your recipe by completing the following steps below. You may edit or delete recipes under manage account. </p>
 
         <div class="row">
-            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
-                <span class="sr-only">66% Complete</span>
-            </div>
-
-
             <div class="col-md-3">
             </div>
 
