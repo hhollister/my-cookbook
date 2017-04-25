@@ -46,6 +46,8 @@ public class Recipe {
     @Column(name = "notes")
     private String notes;
 
+    //private int totalTime;
+
 
     //constructor
     public Recipe() {
@@ -216,6 +218,14 @@ public class Recipe {
     public void setNotes(String notes) {
         this.notes = notes;
     }
+
+    //public int getTotalTime() {
+    //    return totalTime;
+    //}
+
+    //public void setTotalTime() {
+    //    totalTime = preparation_time + cook_time;
+    //}
 
     @Override
     public String toString() {

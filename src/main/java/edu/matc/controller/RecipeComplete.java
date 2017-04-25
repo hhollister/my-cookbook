@@ -28,16 +28,6 @@ public class RecipeComplete extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        // Get the user id
-        UserDao userDao = new UserDao();
-        String username = req.getRemoteUser();
-        User user = userDao.getUserByUsername(username);
-        int user_id = user.getUserid();
-
-        RecipeDao recipeDao = new RecipeDao();
-        List<Recipe> recipes = recipeDao.getAllRecipesByUserId(user_id);
-
-        req.setAttribute("recipes", recipes);
         RequestDispatcher dispatcher = req.getRequestDispatcher("/index.jsp");
         dispatcher.forward(req, resp);
     }

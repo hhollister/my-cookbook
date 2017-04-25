@@ -2,6 +2,7 @@ C:\Users\hornb\Documents\GitHub\mycookbook\src\main\java\edu\matc\controller\Rec
 C:\Users\hornb\Documents\GitHub\mycookbook\src\main\java\edu\matc\entity\RecipeIngredient.java
 C:\Users\hornb\Documents\GitHub\mycookbook\src\main\java\edu\matc\persistence\RecipeDao.java
 C:\Users\hornb\Documents\GitHub\mycookbook\src\main\java\edu\matc\controller\RestApplication.java
+C:\Users\hornb\Documents\GitHub\mycookbook\src\main\java\edu\matc\controller\ShowRecipe.java
 C:\Users\hornb\Documents\GitHub\mycookbook\src\main\java\edu\matc\controller\CreateAccount.java
 C:\Users\hornb\Documents\GitHub\mycookbook\src\main\java\edu\matc\persistence\RecipeIngredientDao.java
 C:\Users\hornb\Documents\GitHub\mycookbook\src\main\java\edu\matc\util\LocalDateAttributeConverter.java

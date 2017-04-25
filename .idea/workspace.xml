@@ -2,24 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4207124b-cdbd-4069-895b-a5a320ee03ea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/controller/NextAddIngredients.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/controller/Recipes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/taglib.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/mycookbook_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/mycookbook_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/controller/ShowRecipe.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/config.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/footer.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/recipe.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mycookbook/taglib.jsp" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/taglib.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/taglib.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/matc/controller/AddRecipeInstructions.class" afterPath="$PROJECT_DIR$/target/classes/edu/matc/controller/AddRecipeInstructions.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/matc/controller/RecipeComplete.class" afterPath="$PROJECT_DIR$/target/classes/edu/matc/controller/RecipeComplete.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/matc/entity/Recipe.class" afterPath="$PROJECT_DIR$/target/classes/edu/matc/entity/Recipe.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mycookbook.war" afterPath="$PROJECT_DIR$/target/mycookbook.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mycookbook/WEB-INF/classes/edu/matc/controller/AddRecipeInstructions.class" afterPath="$PROJECT_DIR$/target/mycookbook/WEB-INF/classes/edu/matc/controller/AddRecipeInstructions.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mycookbook/WEB-INF/classes/edu/matc/controller/RecipeComplete.class" afterPath="$PROJECT_DIR$/target/mycookbook/WEB-INF/classes/edu/matc/controller/RecipeComplete.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mycookbook/WEB-INF/classes/edu/matc/entity/Recipe.class" afterPath="$PROJECT_DIR$/target/mycookbook/WEB-INF/classes/edu/matc/entity/Recipe.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/781391ec-c4ed-4924-8325-5af6841cbcc6.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/781391ec-c4ed-4924-8325-5af6841cbcc6.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectPlan.md" afterPath="$PROJECT_DIR$/ProjectPlan.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TimeLog.md" afterPath="$PROJECT_DIR$/TimeLog.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mycookbook.iml" afterPath="$PROJECT_DIR$/mycookbook.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/matc/controller/AddRecipeInstructions.java" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/controller/AddRecipeInstructions.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/matc/controller/RecipeComplete.java" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/controller/RecipeComplete.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/matc/entity/Recipe.java" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/entity/Recipe.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/addRecipe.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/addRecipe.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/addrecipeingredients.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/addrecipeingredients.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/addrecipeinstructions.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/addrecipeinstructions.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/createAccount.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/createAccount.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/editRecipe.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/editRecipe.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/failedLogin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/failedLogin.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/fixedNavbar.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/fixedNavbar.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/head.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/head.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/mealPlanner.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/mealPlanner.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/recipes.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/recipes.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/results.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/results.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mycookbook/META-INF/maven/edu.match.mycookbook/mycookbook/pom.properties" afterPath="$PROJECT_DIR$/target/mycookbook/META-INF/maven/edu.match.mycookbook/mycookbook/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mycookbook/META-INF/maven/edu.match.mycookbook/mycookbook/pom.xml" afterPath="$PROJECT_DIR$/target/mycookbook/META-INF/maven/edu.match.mycookbook/mycookbook/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mycookbook/addRecipe.jsp" afterPath="$PROJECT_DIR$/target/mycookbook/addRecipe.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mycookbook/addrecipeingredients.jsp" afterPath="$PROJECT_DIR$/target/mycookbook/addrecipeingredients.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mycookbook/addrecipeinstructions.jsp" afterPath="$PROJECT_DIR$/target/mycookbook/addrecipeinstructions.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mycookbook/createAccount.jsp" afterPath="$PROJECT_DIR$/target/mycookbook/createAccount.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mycookbook/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/target/mycookbook/css/bootstrap-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mycookbook/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/target/mycookbook/css/bootstrap-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mycookbook/css/bootstrap.css" afterPath="$PROJECT_DIR$/target/mycookbook/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mycookbook/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/target/mycookbook/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mycookbook/editRecipe.jsp" afterPath="$PROJECT_DIR$/target/mycookbook/editRecipe.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mycookbook/failedLogin.jsp" afterPath="$PROJECT_DIR$/target/mycookbook/failedLogin.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mycookbook/index.jsp" afterPath="$PROJECT_DIR$/target/mycookbook/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mycookbook/jsp/fixedNavbar.jsp" afterPath="$PROJECT_DIR$/target/mycookbook/jsp/fixedNavbar.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mycookbook/jsp/head.jsp" afterPath="$PROJECT_DIR$/target/mycookbook/jsp/head.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mycookbook/login.jsp" afterPath="$PROJECT_DIR$/target/mycookbook/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mycookbook/mealPlanner.jsp" afterPath="$PROJECT_DIR$/target/mycookbook/mealPlanner.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mycookbook/recipes.jsp" afterPath="$PROJECT_DIR$/target/mycookbook/recipes.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mycookbook/results.jsp" afterPath="$PROJECT_DIR$/target/mycookbook/results.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.matc.persistence.RecipeDaoTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.matc.persistence.RecipeDaoTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.matc.persistence.RecipeIngredientDaoTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.matc.persistence.RecipeIngredientDaoTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.matc.persistence.RecipeInstructionDaoTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.matc.persistence.RecipeInstructionDaoTest.xml" />
@@ -88,24 +143,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/mealPlanner.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/SearchUser.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/results.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/j_security_check.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/Rest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/RestApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/AddUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/matc/entity/UserRoles.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/matc/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/matc/persistence/UserDao.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/matc/persistence/UserDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/persistence/UserRoleDao.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/matc/persistence/UserRoleDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/AllUsers.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/createAccount.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/entity/UserRole.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/entity/RecipeIngredient.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/matc/persistence/RecipeIngredientDaoTest.java" />
@@ -116,27 +158,42 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/entity/RecipeInstruction.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/persistence/RecipeInstructionDao.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/matc/persistence/RecipeInstructionDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/matc/entity/Recipe.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/addrecipe.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/addrecipeingredients.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/nextaddinstructions.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/addrecipeinstructions.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/recipecomplete.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/CreateAccount.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/addRecipe.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/AddRecipe.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/persistence/RecipeDao.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/matc/persistence/RecipeDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/AddRecipeInstructions.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/NextAddInstructions.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/addrecipeinstructions.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/NextAddIngredients.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/AddRecipeIngredients.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/addrecipeingredients.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/RecipeComplete.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/Recipes.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/RecipeComplete.java" />
+        <option value="$PROJECT_DIR$/ProjectPlan.md" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/AddRecipeInstructions.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/footer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/failedLogin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/matc/entity/Recipe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/Recipe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/ShowRecipe.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/head.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/editRecipe.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/recipes.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/recipe.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/results.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/fixedNavbar.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/addRecipe.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/mealPlanner.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/addrecipeingredients.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/addrecipeinstructions.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/createAccount.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
       </list>
     </option>
   </component>
@@ -209,7 +266,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -254,32 +310,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="persistence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mycookbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mycookbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -310,7 +340,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemId" value="jsp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -454,8 +484,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -463,7 +494,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../EnterpriseJava/week1-user-display-exercise-hibernate-demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -471,16 +502,20 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hornb\Documents\GitHub\mycookbook\src\main\webapp" />
+      <recent name="C:\Users\hornb\Documents\GitHub\mycookbook\src\main\webapp\jsp" />
+      <recent name="C:\Users\hornb\Documents\GitHub\my-cookbook\src\test\resources" />
+      <recent name="C:\Users\hornb\Documents\GitHub\my-cookbook\src\main\webapp" />
+      <recent name="C:\Users\hornb\Documents\GitHub\my-cookbook\src\test" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="edu.matc.controller" />
       <recent name="edu.matc.persistence" />
       <recent name="edu.matc.entity" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\hornb\Documents\GitHub\mycookbook\src\main\webapp" />
-      <recent name="C:\Users\hornb\Documents\GitHub\my-cookbook\src\test\resources" />
-      <recent name="C:\Users\hornb\Documents\GitHub\my-cookbook\src\main\webapp" />
-      <recent name="C:\Users\hornb\Documents\GitHub\my-cookbook\src\test" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hornb\Documents\GitHub\mycookbook\src\main\webapp\jsp" />
     </key>
   </component>
   <component name="RunManager" selected="TomEE Server.Tomee">
@@ -1165,7 +1200,11 @@
       <workItem from="1492728944591" duration="8676000" />
       <workItem from="1492738366138" duration="4932000" />
       <workItem from="1492816649035" duration="2618000" />
-      <workItem from="1492819331154" duration="4900000" />
+      <workItem from="1492819331154" duration="5295000" />
+      <workItem from="1492877989100" duration="3760000" />
+      <workItem from="1492882079993" duration="21642000" />
+      <workItem from="1493083485423" duration="30000" />
+      <workItem from="1493083794541" duration="4870000" />
     </task>
     <servers />
   </component>
@@ -1202,7 +1241,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96802000" />
+    <option name="totallyTimeSpent" value="127499000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -1229,11 +1268,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3929785" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3929785" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1433942" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1519871" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1254,7 +1293,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1275,74 +1314,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/head.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/failedLogin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/j_security_check.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/SearchUser.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/Rest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/AddUser.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistence/SessionFactoryProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/entity/UserRoles.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/matc/persistence/UserRoleDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/matc/persistence/UserDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="58" column="4" lean-forward="true" selection-start-line="58" selection-start-column="4" selection-end-line="62" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/RestApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistence/UserRoleDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2538">
-          <caret line="135" column="35" lean-forward="false" selection-start-line="135" selection-start-column="35" selection-end-line="135" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/781391ec-c4ed-4924-8325-5af6841cbcc6/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/AllUsers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
@@ -1353,21 +1324,7 @@
     <entry file="file://$PROJECT_DIR$/target/my-cookbook/META-INF/context.xml" />
     <entry file="file://$PROJECT_DIR$/target/classes/edu/matc/controller/CreateAccount.class" />
     <entry file="file://$PROJECT_DIR$/target/classes/hibernate.cfg.xml" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/11ea5253/781391ec-c4ed-4924-8325-5af6841cbcc6/cookbook.user_roles" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/entity/UserRole.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -1400,21 +1357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
           <caret line="27" column="57" lean-forward="false" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="72" column="50" lean-forward="false" selection-start-line="72" selection-start-column="50" selection-end-line="72" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/createAccount.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="74" column="52" lean-forward="false" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -1426,19 +1368,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="21" column="47" lean-forward="false" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/entity/RecipeIngredient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="83" column="7" lean-forward="false" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1446,39 +1379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/matc/persistence/RecipeDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="42" column="81" lean-forward="false" selection-start-line="42" selection-start-column="81" selection-end-line="42" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/addRecipe.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="89" column="64" lean-forward="false" selection-start-line="89" selection-start-column="64" selection-end-line="89" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/AddRecipe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="73" column="8" lean-forward="false" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistence/RecipeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="77" column="24" lean-forward="false" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1486,17 +1386,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1043">
           <caret line="87" column="33" lean-forward="false" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistence/RecipeIngredientDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-531">
-          <caret line="72" column="63" lean-forward="false" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="63" />
-          <folding>
-            <element signature="e#2165#2183#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1504,11 +1393,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="814">
           <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="48" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#445#446#0" expanded="false" />
-            <element signature="e#493#494#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1516,7 +1400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="99" column="53" lean-forward="false" selection-start-line="99" selection-start-column="36" selection-end-line="99" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1524,14 +1407,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
           <caret line="36" column="47" lean-forward="false" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/addrecipeinstructions.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528">
-          <caret line="69" column="12" lean-forward="false" selection-start-line="69" selection-start-column="12" selection-end-line="108" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -1544,60 +1419,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/AddRecipeInstructions.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="31" column="8" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="35" selection-end-column="39" />
+        <state relative-caret-position="462">
+          <caret line="21" column="47" lean-forward="false" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/AddRecipeIngredients.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/taglib.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="62" column="8" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="102" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/recipes.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/addrecipeingredients.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1166">
-          <caret line="116" column="50" lean-forward="true" selection-start-line="116" selection-start-column="50" selection-end-line="116" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/Recipes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="38" column="45" lean-forward="false" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/entity/Recipe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2684">
-          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        <state relative-caret-position="22">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1605,10 +1438,241 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/RecipeComplete.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="39" column="43" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="43" />
+          <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/example1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="71" lean-forward="false" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/AddRecipeInstructions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="51" column="92" lean-forward="true" selection-start-line="51" selection-start-column="92" selection-end-line="51" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="63" column="17" lean-forward="false" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/AddRecipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1065">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/Recipes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="38" column="45" lean-forward="false" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/Recipe.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/matc/persistence/RecipeDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/AddRecipeIngredients.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="65" column="8" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="66" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistence/RecipeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="109" column="27" lean-forward="false" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistence/RecipeIngredientDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="73" column="8" lean-forward="false" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/entity/Recipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="105" column="27" lean-forward="false" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/ShowRecipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectPlan.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="22">
+            <caret line="47" column="18" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/editRecipe.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-154">
+          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/failedLogin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/recipes.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/recipe.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1430">
+          <caret line="65" column="7" lean-forward="false" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/results.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="47" column="21" lean-forward="false" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/head.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="31" column="118" lean-forward="false" selection-start-line="31" selection-start-column="118" selection-end-line="31" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/mealPlanner.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="88" column="22" lean-forward="false" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/fixedNavbar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/addrecipeingredients.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="70" column="10" lean-forward="false" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/addRecipe.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/addrecipeinstructions.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="62" column="14" lean-forward="false" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/createAccount.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="41" column="14" lean-forward="false" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="36" column="14" lean-forward="false" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>

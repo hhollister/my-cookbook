@@ -11,7 +11,7 @@
 ### Week 2
 - [X] Document application flow - wireframes have clickable links in the online version.
 - [X] Complete screen design (on paper)
-- [ ] Create project structure in IntelliJ
+- [X] Create project structure in IntelliJ
 - [X] Add project to repository
 - [ ] Deploy application to AWS
 - [X] Complete database design
@@ -21,69 +21,66 @@
 more detail.
 
 ### Week 3
-- [ ] Complete remaining JSPs
+- [X] Complete remaining JSPs
 - [X] Add in bootstrap
 - [X] Create database and all tables/columns locally
 - [X] Time log entries
 - [ ] Determine independent research topic
 - [X] Create class diagram
-- [ ] Set up logging
-- [ ] Set up unit testing
+- [X] Set up logging
+- [X] Set up unit testing
 
 ### Week 4
-- [ ] Add Hibernate config
-- [ ] Create DAO for user crud
-- [ ] Add unit tests for DAO
-- [ ] Add user login  
-- [ ] Add user registration
-- [ ] Time log entries
-- [ ] Add Maven for building
-- [ ] Add entities for remaining tables
+- [X] Add Hibernate config
+- [X] Create DAO for user crud
+- [X] Add unit tests for DAO
+- [X] Add user login  
+- [X] Add user registration
+- [X] Time log entries
+- [X] Add Maven for building
+- [X] Add entities for remaining tables
 
 ### Week 5
 
-- [ ] Time log entries
-- [ ] Create DAO for trails
-- [ ] Create DAO for trail report
-- [ ] Create display trail report functionality
-- [ ] Create display trail functionality
-- [ ] Add tests for new functionality
+- [X] Time log entries
+- [X] Create DAOs
+- [X] Create display functionality
+- [X] Add tests for new functionality
 
 ### Week 6
-- [ ] Time log entries
-- [ ] Integration with google maps api
-- [ ] Create add trail report functionality
-- [ ] Create add trail functionality
+- [X] Time log entries
+- [ ] Integration with Yummly api
 - [ ] Set up Continuous Integration on AWS
 
 ### Week 7
-- [ ] Time log entries
+- [X] Time log entries
 - [ ] Add search functionality
 - [ ] Determine how to add paging of search results
-- [ ] Integration with weather service and/or snow depth data
+- [ ] Integration with food service
 
 ### Week 8
-- [ ] Time log entries
+- [X] Time log entries
 - [ ] Implement paging of search results
 - [ ] Code review
 
 ### Week 9
-- [ ] Time log entries
-- [ ] Create databse on AWS
+- [X] Time log entries
+- [ ] Create database on AWS
 - [ ] Set up authentication and db access in app on AWS
 - [ ] Add password reset/reminder function
+- [ ] Add logging
 
 ### Week 10
-- [ ] Time log entries
+- [X] Time log entries
 
 ### Week 11
-- [ ] Time log entries
+- [X] Time log entries
 
 ### Week 12
-- [ ] Time log entries
+- [X] Time log entries
 
 ### Week 13
-- [ ] Time log entries
+- [X] Time log entries
 
 ### Week 14
 - [ ] Time log entries

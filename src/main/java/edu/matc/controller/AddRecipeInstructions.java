@@ -48,6 +48,9 @@ public class AddRecipeInstructions extends HttpServlet {
         RecipeInstructionDao recipeInstructionDao = new RecipeInstructionDao();
         recipeInstructionDao.addRecipeInstruction(recipeInstruction);
 
+        // Set the attribute for the list of ingredients
+        req.setAttribute("instructions", recipeInstructionDao.getRecipeInstructionByRecipeId(recipe_id));
+
         req.setAttribute("recipeName", recipeName);
         RequestDispatcher dispatcher = req.getRequestDispatcher("/addrecipeinstructions.jsp");
         dispatcher.forward(req, resp);

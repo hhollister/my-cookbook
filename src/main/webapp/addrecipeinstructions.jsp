@@ -1,96 +1,47 @@
 <!DOCTYPE html>
+<%@include file="/jsp/taglib.jsp"%>
+<c:set var="title" value="Recipe Instructions" />
+<html xmlns="http://www.w3.org/1999/xhtml">
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <link rel="icon" href="../../favicon.ico">
+<%@include file="/jsp/head.jsp"%>
 
-        <title>Add Recipe Instructions</title>
+<body>
 
-        <!-- Bootstrap core CSS -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <!-- Bootstrap theme -->
-        <link href="css/bootstrap-theme.min.css" rel="stylesheet">
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+<%@include file="/jsp/fixedNavbar.jsp"%>
 
-        <!-- Custom styles for this template -->
-        <link href="theme.css" rel="stylesheet">
+<div class="container-fluid" role="main">
 
-    </head>
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+        <h1>Add A Recipe Instructions</h1>
+        <p>Please add your recipe by completing the following steps below. You may edit or delete recipes under manage account. </p>
 
-    <body>
-
-        <!-- Fixed navbar -->
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">My Cookbook</a>
+        <div class="row">
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                    <span class="sr-only">100% Complete</span>
                 </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="recipes.jsp">Home</a></li>
-                        <li><a href="mealPlanner.jsp">Meal Planner</a></li>
-                        <li class="active"><a href="addRecipe.jsp">Add Recipe</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li class="dropdown-header">Nav header</li>
-                                <li><a href="#">Separated link</a></li>
-                                <li><a href="#">One more separated link</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div><!--/.nav-collapse -->
-            </div>
-        </nav>
-
-        <div class="container theme-showcase" role="main">
-
-            <!-- Main jumbotron for a primary marketing message or call to action -->
-            <div class="jumbotron">
-                <h1>Add A Recipe Instructions</h1>
-                <p>Please add your recipe by completing the following steps below. You may edit or delete recipes under manage account. </p>
             </div>
 
-            <div class="row">
+            <div class="col-md-3">
+            </div>
 
-                <div class="col-md-6">
-                    <table class="table table-striped">
-                        <thead>
+            <div class="col-md-6">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Instruction</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <c:forEach var="instruction" items="${instructions}">
                             <tr>
-                                <th>Step</th>
-                                <th>Instruction</th>
-                                <th>Move Down</th>
-                                <th>Move Up</th>
-                                <th>Delete</th>
+                                <td>${instruction.getInstruction()}</td>
                             </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+                        </c:forEach>
+                    </tbody>
+                </table>
+
 
                 <form class="form-signin" action="/mycookbook/addrecipeinstructions">
                     <input type="hidden" id="recipeName" name="recipeName" class="form-control" value=${recipeName} readonly>
@@ -109,19 +60,13 @@
                 </form>
 
             </div>
+        </div>
+    </div>
 
 
-        </div> <!-- /container -->
+</div> <!-- /container -->
 
+<%@include file="/jsp/footer.jsp"%>
 
-        <!-- Bootstrap core JavaScript
-        ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-        <script src="../../dist/js/bootstrap.min.js"></script>
-        <script src="../../assets/js/docs.min.js"></script>
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-    </body>
+</body>
 </html>

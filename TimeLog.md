@@ -31,3 +31,7 @@
 | 4/19/2017 | Individual Project | 4 |   |
 | 4/20/2017 | Individual Project | 3 |   |
 | 4/21/2017 | Individual Project | 3 |   |
+| 4/22/2017 | Individual Project | 6 |   |
+| 4/23/2017 | Individual Project | 3 |   |
+| 4/24/2017 | Individual Project | 2 |   |
+| 4/25/2017 | Individual Project | 2 |   |

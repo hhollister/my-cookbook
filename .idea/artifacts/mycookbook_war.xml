@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mycookbook:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="mycookbook.war">
+      <element id="artifact" artifact-name="mycookbook:war exploded" />
+    </root>
+  </artifact>
+</component>

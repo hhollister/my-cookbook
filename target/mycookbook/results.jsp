@@ -1,31 +1,13 @@
 <!DOCTYPE html>
+<%@include file="/jsp/taglib.jsp"%>
+<c:set var="title" value="Results" />
+<html xmlns="http://www.w3.org/1999/xhtml">
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+<%@include file="/jsp/head.jsp"%>
 
-    <title>Results</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="jumbotron.css" rel="stylesheet">
-
-</head>
-
-<html>
 <body>
 
-
+<%@include file="/jsp/fixedNavbar.jsp"%>
 
 <div class="container-fluid">
     <h2>Results: </h2>
@@ -44,10 +26,33 @@
                 </tr>
 
 
+
+                <th>Move Down</th>
+                <th>Move Up</th>
+                <th>Delete</th>
+
+                <td>
+                    <button type="button" class="btn btn-default" aria-label="Move Down">
+                        <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-default" aria-label="Move Up">
+                        <span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-default" aria-label="Delete">
+                        <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+                    </button>
+                </td>
+
             </c:forEach>
         </tbody>
     </table>
 </div>
+
+<%@include file="/jsp/footer.jsp"%>
 
 </body>
 </html>

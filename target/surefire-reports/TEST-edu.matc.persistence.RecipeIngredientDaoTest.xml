@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="edu.matc.persistence.RecipeIngredientDaoTest" time="0.201" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="edu.matc.persistence.RecipeIngredientDaoTest" time="0.116" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2016.3.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -62,10 +62,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="edu.matc.persistence.RecipeIngredientDaoTest" name="addRecipeIngredient" time="0.1"/>
+  <testcase classname="edu.matc.persistence.RecipeIngredientDaoTest" name="addRecipeIngredient" time="0.016"/>
   <testcase classname="edu.matc.persistence.RecipeIngredientDaoTest" name="getAllRecipeIngredients" time="0"/>
-  <testcase classname="edu.matc.persistence.RecipeIngredientDaoTest" name="deleteRecipeIngredient" time="0"/>
-  <testcase classname="edu.matc.persistence.RecipeIngredientDaoTest" name="updateRecipeIngredient" time="0.021"/>
-  <testcase classname="edu.matc.persistence.RecipeIngredientDaoTest" name="getRecipeIngredientByRecipeId" time="0.08"/>
+  <testcase classname="edu.matc.persistence.RecipeIngredientDaoTest" name="deleteRecipeIngredient" time="0.016"/>
+  <testcase classname="edu.matc.persistence.RecipeIngredientDaoTest" name="updateRecipeIngredient" time="0"/>
+  <testcase classname="edu.matc.persistence.RecipeIngredientDaoTest" name="getRecipeIngredientByRecipeId" time="0.084"/>
   <testcase classname="edu.matc.persistence.RecipeIngredientDaoTest" name="getRecipeIngredient" time="0"/>
 </testsuite>
