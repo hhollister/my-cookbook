@@ -21,9 +21,7 @@
         <p>Yield: ${recipe.getYield()}</p>
         <p>Preheat Temperature: ${recipe.getPreheat_temperature()}</p>
         <p>Your notes: ${recipe.getNotes()}</p>
-    </div>
 
-    <div class="row">
         <h3>Ingredients</h3>
         <table class="table table-striped">
             <thead>

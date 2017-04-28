@@ -13,7 +13,7 @@
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
-        <h1>Add A Recipe Information</h1>
+        <h1>Add A Recipe</h1>
         <p>Please add your recipe by completing the following steps below. Once you are completely finished adding
             your recipe, you may select Add Recipe at the bottom of the page. Your information will not be saved unless
             this recipe is added. You may edit or delete recipes under manage account. </p>
