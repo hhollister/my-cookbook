@@ -41,7 +41,7 @@
                 </table>
 
                 <form class="form-signin" action="/mycookbook/addrecipeingredients">
-                    <input type="hidden" id="recipeName" name="recipeName" class="form-control" value=${recipeName}>
+                    <input type="hidden" id="recipeid" name="recipeid" class="form-control" value=${recipeid}>
                     <label for="recipeIngredient" class="sr-only">Ingredient</label>
                     <input type="text" id="recipeIngredient" name="recipeIngredient" class="form-control" placeholder="Ingredient" required autofocus>
                     <label for="ingredientAmount" class="sr-only">Amount</label>
@@ -58,7 +58,7 @@
                 <br />
 
                 <form class="form-signin" action="/mycookbook/addrecipeinstructions">
-                    <input type="hidden" id="recipeName" name="recipeName" class="form-control" value=${recipeName}>
+                    <input type="hidden" id="recipeid" name="recipeid" class="form-control" value=${recipeid}>
                     <button class="btn btn-lg btn-primary btn-block" type="submit">Next: Add Recipe Instructions</button>
                 </form>
             </div>

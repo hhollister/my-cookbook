@@ -38,7 +38,7 @@
 
 
                 <form class="form-signin" action="/mycookbook/addrecipeinstructions">
-                    <input type="hidden" id="recipeName" name="recipeName" class="form-control" value=${recipeName} readonly>
+                    <input type="hidden" id="recipeid" name="recipeid" class="form-control" value=${recipeid}>
                     <label for="recipeInstruction" class="sr-only">Instruction</label>
                     <input type="recipeInstruction" id="recipeInstruction" name="recipeInstruction" class="form-control" placeholder="Instruction" required autofocus>
 

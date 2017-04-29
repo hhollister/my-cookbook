@@ -31,7 +31,7 @@ public class AddRecipeIngredients extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         int insertedQuantity;
-
+/**
         UserDao userDao = new UserDao();
         String username = req.getRemoteUser();
         User user = userDao.getUserByUsername(username);
@@ -41,6 +41,12 @@ public class AddRecipeIngredients extends HttpServlet {
         RecipeDao recipeDao = new RecipeDao();
         String recipeName = req.getParameter("recipeName");
         int recipe_id = recipeDao.getRecipeByUserAndRecipeName(user_id, recipeName);
+*/
+
+        // Get the Recipe by user id and recipe name
+        RecipeDao recipeDao = new RecipeDao();
+        int recipeid = Integer.parseInt(req.getParameter("recipeid"));
+
 
         // Map the information inserted on the form to the variables
 
@@ -55,14 +61,14 @@ public class AddRecipeIngredients extends HttpServlet {
         String insertedUnitsMeasurement = req.getParameter("ingredientMeasurement");
 
         // Insert the ingredient to the recipe
-        RecipeIngredient recipeIngredient = new RecipeIngredient(recipe_id, insertedIngredient, insertedQuantity, insertedUnitsMeasurement);
+        RecipeIngredient recipeIngredient = new RecipeIngredient(recipeid, insertedIngredient, insertedQuantity, insertedUnitsMeasurement);
         RecipeIngredientDao recipeIngredientDao = new RecipeIngredientDao();
         recipeIngredientDao.addRecipeIngredient(recipeIngredient);
 
         // Set the attribute for the list of ingredients
-        req.setAttribute("ingredients", recipeIngredientDao.getRecipeIngredientByRecipeId(recipe_id));
+        req.setAttribute("ingredients", recipeIngredientDao.getRecipeIngredientByRecipeId(recipeid));
 
-        req.setAttribute("recipeName", recipeName);
+        req.setAttribute("recipeid", recipeid);
         RequestDispatcher dispatcher = req.getRequestDispatcher("/addrecipeingredients.jsp");
         dispatcher.forward(req, resp);
     }

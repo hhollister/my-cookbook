@@ -28,7 +28,7 @@ import java.io.IOException;
 public class AddRecipeInstructions extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
+/**
         // Get the user id
         UserDao userDao = new UserDao();
         String username = req.getRemoteUser();
@@ -39,19 +39,23 @@ public class AddRecipeInstructions extends HttpServlet {
         RecipeDao recipeDao = new RecipeDao();
         String recipeName = req.getParameter("recipeName");
         int recipe_id = recipeDao.getRecipeByUserAndRecipeName(user_id, recipeName);
+*/
+        // Get the Recipe by user id and recipe name
+        RecipeDao recipeDao = new RecipeDao();
+        int recipeid = Integer.parseInt(req.getParameter("recipeid"));
 
         // Map the information inserted on the form to the variables
         String insertedInstruction = req.getParameter("recipeInstruction");
 
         // Insert the ingredient to the recipe
-        RecipeInstruction recipeInstruction = new RecipeInstruction(recipe_id, insertedInstruction);
+        RecipeInstruction recipeInstruction = new RecipeInstruction(recipeid, insertedInstruction);
         RecipeInstructionDao recipeInstructionDao = new RecipeInstructionDao();
         recipeInstructionDao.addRecipeInstruction(recipeInstruction);
 
         // Set the attribute for the list of ingredients
-        req.setAttribute("instructions", recipeInstructionDao.getRecipeInstructionByRecipeId(recipe_id));
+        req.setAttribute("instructions", recipeInstructionDao.getRecipeInstructionByRecipeId(recipeid));
 
-        req.setAttribute("recipeName", recipeName);
+        req.setAttribute("recipeid", recipeid);
         RequestDispatcher dispatcher = req.getRequestDispatcher("/addrecipeinstructions.jsp");
         dispatcher.forward(req, resp);
     }

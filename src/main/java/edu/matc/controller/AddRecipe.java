@@ -70,8 +70,9 @@ public class AddRecipe extends HttpServlet {
         String insertedNotes = req.getParameter("notes");
         Recipe recipe = new Recipe(user_id, insertedRecipeName, insertedMealCategory, insertedFoodCategory, insertedPreparationTime, insertedCookTime, insertedYield, insertedPreheatTemperature, insertedNotes);
         recipeDao.addRecipe(recipe);
+        int recipeid = recipe.getRecipeid();
 
-        req.setAttribute("recipeName", insertedRecipeName);
+        req.setAttribute("recipeid", recipeid);
         RequestDispatcher dispatcher = req.getRequestDispatcher("/addrecipeingredients.jsp");
         dispatcher.forward(req, resp);
     }
