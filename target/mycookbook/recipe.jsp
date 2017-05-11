@@ -1,12 +1,12 @@
-<!DOCTYPE html>
+
 <%@include file="/jsp/taglib.jsp"%>
-<c:set var="title" value="Recipe Ingredients" />
-<html xmlns="http://www.w3.org/1999/xhtml">
-<html lang="en">
+<c:set var="title" value="Recipe" />
 <%@include file="/jsp/head.jsp"%>
 
-<body>
 
+
+<html>
+<body>
 <%@include file="/jsp/fixedNavbar.jsp"%>
 
 <div class="container-fluid" role="main">
@@ -21,6 +21,8 @@
         <p>Yield: ${recipe.getYield()}</p>
         <p>Preheat Temperature: ${recipe.getPreheat_temperature()}</p>
         <p>Your notes: ${recipe.getNotes()}</p>
+
+        <br />
 
         <h3>Ingredients</h3>
         <table class="table table-striped">
@@ -45,22 +47,13 @@
         <br />
         <h3>Instructions</h3>
 
-        <table class="table table-striped">
-            <thead>
-            <tr>
-                <th>Step</th>
-                <th>Instruction</th>
-            </tr>
-            </thead>
-            <tbody>
+
+        <ol>
             <c:forEach var="instruction" items="${instructions}">
-                <tr>
-                    <td></td>
-                    <td>${instruction.getInstruction()}</td>
-                </tr>
+                <li>${instruction.getInstruction()}</li>
             </c:forEach>
-            </tbody>
-        </table>
+        </ol>
+
     </div>
 </div> <!-- /container -->
 

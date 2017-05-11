@@ -63,6 +63,13 @@
       <version>1.2</version>
     </dependency>
 
+
+    <dependency>
+      <groupId>edu.matc.taglib</groupId>
+      <artifactId>taglib</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+
   </dependencies>
   <build>
     <finalName>mycookbook</finalName>

@@ -1,12 +1,10 @@
-<!DOCTYPE html>
+
 <%@include file="/jsp/taglib.jsp"%>
-<c:set var="title" value="Recipe Instructions" />
-<html xmlns="http://www.w3.org/1999/xhtml">
-<html lang="en">
+<c:set var="title" value="Add Instructions" />
 <%@include file="/jsp/head.jsp"%>
 
+<html>
 <body>
-
 <%@include file="/jsp/fixedNavbar.jsp"%>
 
 <div class="container-fluid" role="main">

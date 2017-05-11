@@ -1,10 +1,9 @@
-<!DOCTYPE html>
+
 <%@include file="/jsp/taglib.jsp"%>
 <c:set var="title" value="Edit Recipe" />
-<html xmlns="http://www.w3.org/1999/xhtml">
-<html lang="en">
 <%@include file="/jsp/head.jsp"%>
 
+<html>
 <body>
 
 <%@include file="/jsp/fixedNavbar.jsp"%>

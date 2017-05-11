@@ -1,12 +1,11 @@
-<!DOCTYPE html>
+
 <%@include file="/jsp/taglib.jsp"%>
 <c:set var="title" value="Meal Planner" />
-<html xmlns="http://www.w3.org/1999/xhtml">
-<html lang="en">
 <%@include file="/jsp/head.jsp"%>
 
-<body>
 
+<html>
+<body>
 <%@include file="/jsp/fixedNavbar.jsp"%>
 
 <div class="container-fluid" role="main">

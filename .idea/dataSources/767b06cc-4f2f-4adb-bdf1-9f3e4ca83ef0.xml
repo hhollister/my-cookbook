@@ -101,7 +101,7 @@
     </column>
     <column id="31" parent="12" name="recipe_name">
       <Position>3</Position>
-      <DataType>varchar(25)|0</DataType>
+      <DataType>varchar(50)|0</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="32" parent="12" name="meal_category">
@@ -118,7 +118,7 @@
     </column>
     <column id="35" parent="12" name="cook_time">
       <Position>7</Position>
-      <DataType>int(4) unsigned zerofill|0</DataType>
+      <DataType>int(4)|0</DataType>
     </column>
     <column id="36" parent="12" name="yield">
       <Position>8</Position>
